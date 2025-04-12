@@ -1,0 +1,59 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "RMprSEyrHH1v3NKGZJY5accLkMDTMlRy",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "msg",
+			"value": ""
+		}, {
+			"name": "scriptName",
+			"value": "echo"
+		} ],
+		"scriptName": "echo"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"52rsayHra9XawIeZiJrzSTDSFpeUfqWJ": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 400,
+			"y": 2
+		},
+		"RMprSEyrHH1v3NKGZJY5accLkMDTMlRy": {
+			"height": 72,
+			"title": "echo",
+			"width": 131,
+			"x": -210,
+			"y": -101
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [],
+		"id": "52rsayHra9XawIeZiJrzSTDSFpeUfqWJ",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "x"
+		}, {
+			"name": "value",
+			"value": "5"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	}
+}
