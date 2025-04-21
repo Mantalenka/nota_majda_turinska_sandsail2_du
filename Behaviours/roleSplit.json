@@ -1,5 +1,20 @@
 {
-	"additionalNodes": [],
+	"additionalNodes": [ {
+		"children": [],
+		"id": "KgGJzNjHKacRdHzJuaxLZty0bLUMLDg7",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "pos",
+			"value": "{x = wind[1], z = wind[2]}"
+		}, {
+			"name": "fight",
+			"value": "false"
+		}, {
+			"name": "scriptName",
+			"value": "Common.move"
+		} ],
+		"scriptName": "Common.move"
+	} ],
 	"additionalParameters": {
 		"root": {
 			"height": 88,
@@ -9,44 +24,73 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
-		"DxFvvRzUCDwm1MbYTHJvnezyFdbcLGjj": {
+		"0chALcIbWVmYv2Vwnj2pEs3N1BCX6IDs": {
+			"height": 98,
+			"title": "store",
+			"width": 211,
+			"x": 568,
+			"y": -141
+		},
+		"GGwint5rnkqWKxbM4aO6ekw8aCvWo5Cp": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 218,
-			"y": 4
+			"x": 352,
+			"y": -5
+		},
+		"KgGJzNjHKacRdHzJuaxLZty0bLUMLDg7": {
+			"height": 90,
+			"title": "Common.move",
+			"width": 228,
+			"x": 1036,
+			"y": 116
 		},
 		"m1PCdn1cpPTWY6lvu57RRmlsKdJaZdIw": {
 			"height": 71,
 			"title": "roleSplit",
 			"width": 231,
-			"x": 398,
-			"y": -99
+			"x": 546,
+			"y": 86
 		},
-		"mjQ3C5FUX1RyrMBBysbUYIf2VyciMO9I": {
-			"height": 99,
+		"x6iDIgCY2MjVlgKIIYfdnZDzDOGQpIVX": {
+			"height": 92,
 			"title": "store",
-			"width": 155,
-			"x": 846,
-			"y": 4
+			"width": 131,
+			"x": 1046,
+			"y": 13
 		},
 		"yDBtQe2QCmFufAD9kTO3hmCpj8GO5Lns": {
 			"height": 92,
 			"title": "store",
 			"width": 131,
-			"x": 798,
-			"y": -110
+			"x": 1002,
+			"y": -100
 		}
 	},
 	"roles": [ {
 		"categories": [ "nota_majda_turinska_sandsail2_du.follow_role" ],
 		"name": "Role 1 follow"
 	}, {
-		"categories": [ "nota_majda_turinska_sandsail2_du.Maverick_orig", "nota_majda_turinska_sandsail2_du.follow_role", "nota_majda_turinska_sandsail2_du.maverick_role", "Common.airUnits", "Common.bomberAirUnits", "Common.builders", "Common.buildings", "Common.fighterAirUnits", "Common.groundUnits", "Common.immobile", "Common.mobileBuilders", "Common.transports", "nota_raiders.bots", "nota_raiders.vehicles" ],
+		"categories": [ "nota_majda_turinska_sandsail2_du.Maverick_orig" ],
 		"name": "Role 2 maverick"
 	} ],
 	"root": {
 		"children": [ {
+			"children": [],
+			"id": "0chALcIbWVmYv2Vwnj2pEs3N1BCX6IDs",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "wind"
+			}, {
+				"name": "value",
+				"value": "{Spring.GetWind()}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
 			"children": [ {
 				"children": [],
 				"id": "yDBtQe2QCmFufAD9kTO3hmCpj8GO5Lns",
@@ -64,11 +108,11 @@
 				"scriptName": "store"
 			}, {
 				"children": [],
-				"id": "mjQ3C5FUX1RyrMBBysbUYIf2VyciMO9I",
+				"id": "x6iDIgCY2MjVlgKIIYfdnZDzDOGQpIVX",
 				"nodeType": "luaCommand",
 				"parameters": [ {
 					"name": "var",
-					"value": "marvick"
+					"value": "maverick"
 				}, {
 					"name": "value",
 					"value": "units"
@@ -85,7 +129,7 @@
 				"value": "all-success"
 			} ]
 		} ],
-		"id": "DxFvvRzUCDwm1MbYTHJvnezyFdbcLGjj",
+		"id": "GGwint5rnkqWKxbM4aO6ekw8aCvWo5Cp",
 		"nodeType": "sequence",
 		"parameters": []
 	}
