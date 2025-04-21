@@ -1,0 +1,92 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"DxFvvRzUCDwm1MbYTHJvnezyFdbcLGjj": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 218,
+			"y": 4
+		},
+		"m1PCdn1cpPTWY6lvu57RRmlsKdJaZdIw": {
+			"height": 71,
+			"title": "roleSplit",
+			"width": 231,
+			"x": 398,
+			"y": -99
+		},
+		"mjQ3C5FUX1RyrMBBysbUYIf2VyciMO9I": {
+			"height": 99,
+			"title": "store",
+			"width": 155,
+			"x": 846,
+			"y": 4
+		},
+		"yDBtQe2QCmFufAD9kTO3hmCpj8GO5Lns": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 798,
+			"y": -110
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_majda_turinska_sandsail2_du.follow_role" ],
+		"name": "Role 1 follow"
+	}, {
+		"categories": [ "nota_majda_turinska_sandsail2_du.Maverick_orig", "nota_majda_turinska_sandsail2_du.follow_role", "nota_majda_turinska_sandsail2_du.maverick_role", "Common.airUnits", "Common.bomberAirUnits", "Common.builders", "Common.buildings", "Common.fighterAirUnits", "Common.groundUnits", "Common.immobile", "Common.mobileBuilders", "Common.transports", "nota_raiders.bots", "nota_raiders.vehicles" ],
+		"name": "Role 2 maverick"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "yDBtQe2QCmFufAD9kTO3hmCpj8GO5Lns",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "follow"
+				}, {
+					"name": "value",
+					"value": "units"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "mjQ3C5FUX1RyrMBBysbUYIf2VyciMO9I",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "marvick"
+				}, {
+					"name": "value",
+					"value": "units"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "m1PCdn1cpPTWY6lvu57RRmlsKdJaZdIw",
+			"nodeType": "roleSplit",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "DxFvvRzUCDwm1MbYTHJvnezyFdbcLGjj",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
