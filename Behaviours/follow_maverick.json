@@ -1,17 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "RMprSEyrHH1v3NKGZJY5accLkMDTMlRy",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "msg",
-			"value": ""
-		}, {
-			"name": "scriptName",
-			"value": "echo"
-		} ],
-		"scriptName": "echo"
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 108,
@@ -38,13 +26,6 @@
 			"x": 486,
 			"y": -135
 		},
-		"RMprSEyrHH1v3NKGZJY5accLkMDTMlRy": {
-			"height": 72,
-			"title": "echo",
-			"width": 131,
-			"x": -187,
-			"y": -3
-		},
 		"ZyFIyac9ZoMYhFvGmeH9mdjpc93DUU1Y": {
 			"height": 60,
 			"title": "sequence",
@@ -68,8 +49,11 @@
 		}
 	},
 	"roles": [ {
-		"categories": [],
-		"name": "Role 0"
+		"categories": [ "nota_majda_turinska_sandsail2_du.follow_role" ],
+		"name": "Follow_role"
+	}, {
+		"categories": [ "nota_majda_turinska_sandsail2_du.maverick_role" ],
+		"name": "Maverick"
 	} ],
 	"root": {
 		"children": [ {

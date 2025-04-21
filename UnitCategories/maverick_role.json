@@ -1,0 +1,9 @@
+{
+	"name": "maverick_role",
+	"project": "nota_majda_turinska_sandsail2_du",
+	"types": [ {
+		"humanName": "Maverick",
+		"id": 99,
+		"name": "ammav"
+	} ]
+}

@@ -1,7 +1,7 @@
 local sensorInfo = {
 	name = "FromUnitsToGroupDef",
 	desc = "Flip keys and values of units table",
-	author = "PepeAmpere_Majda",
+	author = "PepeAmpere",
 	date = "2025-04-12",
 	license = "MIT",
 }
