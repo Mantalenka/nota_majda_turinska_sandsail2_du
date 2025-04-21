@@ -1,20 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "KgGJzNjHKacRdHzJuaxLZty0bLUMLDg7",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "pos",
-			"value": "{x = wind[1], z = wind[2]}"
-		}, {
-			"name": "fight",
-			"value": "false"
-		}, {
-			"name": "scriptName",
-			"value": "Common.move"
-		} ],
-		"scriptName": "Common.move"
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 88,
@@ -38,12 +23,19 @@
 			"x": 352,
 			"y": -5
 		},
-		"KgGJzNjHKacRdHzJuaxLZty0bLUMLDg7": {
+		"UMbd1IlDS9sltBhVYeIRUVUNroXaJiRT": {
 			"height": 90,
-			"title": "Common.move",
-			"width": 228,
-			"x": 1036,
-			"y": 116
+			"title": "Common.relativeMove",
+			"width": 280,
+			"x": 1061,
+			"y": 120
+		},
+		"WEiyQfry4v1quGVaCNUyFAmXdkAHaxc1": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 820,
+			"y": 86
 		},
 		"m1PCdn1cpPTWY6lvu57RRmlsKdJaZdIw": {
 			"height": 71,
@@ -107,20 +99,43 @@
 				} ],
 				"scriptName": "store"
 			}, {
-				"children": [],
-				"id": "x6iDIgCY2MjVlgKIIYfdnZDzDOGQpIVX",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "maverick"
+				"children": [ {
+					"children": [],
+					"id": "x6iDIgCY2MjVlgKIIYfdnZDzDOGQpIVX",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "maverick"
+					}, {
+						"name": "value",
+						"value": "units"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
 				}, {
-					"name": "value",
-					"value": "units"
-				}, {
-					"name": "scriptName",
-					"value": "store"
+					"children": [],
+					"id": "UMbd1IlDS9sltBhVYeIRUVUNroXaJiRT",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "dist",
+						"value": "{x = wind[1], z = wind[3]}"
+					}, {
+						"name": "fight",
+						"value": "false"
+					}, {
+						"name": "scriptName",
+						"value": "Common.relativeMove"
+					} ],
+					"scriptName": "Common.relativeMove"
 				} ],
-				"scriptName": "store"
+				"id": "WEiyQfry4v1quGVaCNUyFAmXdkAHaxc1",
+				"nodeType": "parallel",
+				"parameters": [ {
+					"name": "mode",
+					"value": "all-success"
+				} ]
 			} ],
 			"id": "m1PCdn1cpPTWY6lvu57RRmlsKdJaZdIw",
 			"nodeType": "roleSplit",

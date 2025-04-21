@@ -1,0 +1,96 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"HoDgHWPWNxgXrxq59kVu2dcax2PIj3P6": {
+			"height": 94,
+			"title": "store",
+			"width": 416,
+			"x": 677,
+			"y": -143
+		},
+		"TbghHWMS0W1eAcK4i7a38G3jQCKAfBjZ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 271,
+			"y": 20
+		},
+		"WHfvkqSrZftccVoUrRq0s49iOJ3IW3zf": {
+			"height": 94,
+			"title": "store",
+			"width": 204,
+			"x": 766,
+			"y": -19
+		},
+		"ZhG48Ll2L71qzj8vvJe2I0Iv52L4rXK4": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 270,
+			"x": 707,
+			"y": 91
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "HoDgHWPWNxgXrxq59kVu2dcax2PIj3P6",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "sVariable"
+			}, {
+				"name": "value",
+				"value": "nota_majda_turinska_sandsail2_du.ExampleDefug()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "WHfvkqSrZftccVoUrRq0s49iOJ3IW3zf",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "wind"
+			}, {
+				"name": "value",
+				"value": "{Spring.GetWind()}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "ZhG48Ll2L71qzj8vvJe2I0Iv52L4rXK4",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "dist",
+				"value": "{x = wind[1]*10, z = wind[3]*10}"
+			}, {
+				"name": "fight",
+				"value": "false"
+			}, {
+				"name": "scriptName",
+				"value": "Common.relativeMove"
+			} ],
+			"scriptName": "Common.relativeMove"
+		} ],
+		"id": "TbghHWMS0W1eAcK4i7a38G3jQCKAfBjZ",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
