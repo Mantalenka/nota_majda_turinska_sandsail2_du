@@ -36,14 +36,10 @@ return function(M_pos_last, M_pos, listOfUnits)
   cz = cz / #listOfUnits
 
 
-  dx = M_pos[1]-M_pos_last[1]
-  dy = M_pos[2]-M_pos_last[2]
-  dz = M_pos[3]-M_pos_last[3]
-
-  -- apply offset
-  local tx = cx + dx 
-  local ty = cy + dy 
-  local tz = cz + dz 
+  -- Nový cíl získáme tak, že k průměrné pozici formace přičteme posun Maverick
+  local tx = cx + (M_pos[1]-M_pos_last[1])*10 
+  local ty = cy + (M_pos[2]-M_pos_last[2]) 
+  local tz = cz + (M_pos[3]-M_pos_last[3])*10 
 
   return {x = tx, y = ty, z = tz}
 end
