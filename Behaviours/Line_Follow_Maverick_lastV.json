@@ -1,20 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "O5LYUchWymh5O7r3fNj8A8ziwiWOk9Of",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "var",
-			"value": "endPos"
-		}, {
-			"name": "value",
-			"value": "nota_majda_turinska_sandsail2_du.Move_group(M_pos_last, M_pos, units)"
-		}, {
-			"name": "scriptName",
-			"value": "store"
-		} ],
-		"scriptName": "store"
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 88,
@@ -24,117 +9,96 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
-		"5spdHl8MKZNfxqN49LkQKRcnQ9ETuK5h": {
+		"3WcadhFCri80ZkCwZa1u0iESHan9lLnO": {
+			"height": 60,
+			"title": "sequence_MaverickBranch",
+			"width": 253,
+			"x": 774,
+			"y": -214
+		},
+		"FIC8aXTUB8Coo1dYghlYKqTZPJOrPOTp": {
+			"height": 94,
+			"title": "store",
+			"width": 499,
+			"x": 1087,
+			"y": -112
+		},
+		"JWokyrIU81ezgGuCQ3cGm2YshSzmUDvI": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 210,
+			"y": 10
+		},
+		"NyLHqmD51iFduIkUusy9U8Olyyc9teGD": {
 			"height": 94,
 			"title": "store",
 			"width": 304,
-			"x": 1135,
-			"y": 305
+			"x": 1101,
+			"y": 203
 		},
-		"FRnxGL88CKRIRXKv32ILLGMqEWrznRSp": {
+		"RoHNRTAcCffkWRji4W31ojASf1GgKphg": {
 			"height": 60,
 			"title": "sequence_FollowBranch",
 			"width": 237,
-			"x": 771,
+			"x": 772,
 			"y": 83
 		},
-		"L8Ub7LAcP3awuumTUnKKMin3fMWo4Ohb": {
-			"height": 90,
-			"title": "Common.relativeMove",
-			"width": 334,
-			"x": 1149,
-			"y": -281
+		"SfdGRk4ohb0GpESgPM6Yajulpr6k2XQj": {
+			"height": 132,
+			"title": "formation.moveCustomGroup",
+			"width": 427,
+			"x": 1092,
+			"y": 300
 		},
-		"LreOrwB35Ugpz1cN1ChxZOsrym1FK0uC": {
-			"height": 92,
-			"title": "store",
-			"width": 131,
-			"x": 1179,
-			"y": -376
+		"c6LYuRgaI0LVprinePLHcH6ZTbKTcXyT": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 398,
+			"y": 73
 		},
-		"LxGlP6rpwOoGaYAFSzcKi0CDbS46kKt0": {
-			"height": 92,
-			"title": "store",
-			"width": 179,
-			"x": 1112,
-			"y": 13
-		},
-		"NGaMOFihNXmLlR8TkXufDK7V6mcb1Do0": {
+		"clUa3Ap3dPKQ9yy9l06jw2JsufG5Mygs": {
 			"height": 94,
 			"title": "store",
 			"width": 520,
 			"x": 1101,
 			"y": 97
 		},
-		"O5LYUchWymh5O7r3fNj8A8ziwiWOk9Of": {
-			"height": 94,
-			"title": "store",
-			"width": 663,
-			"x": 1148,
-			"y": 218
-		},
-		"Tj0VaOoSToQcEjmlxplJO09UpT83OjXv": {
-			"height": 94,
-			"title": "store",
-			"width": 499,
-			"x": 1043,
-			"y": -82
-		},
-		"VGpyu2KPr7V6Pqbd3ChFtotCK1FIjDF0": {
+		"gJzcvHwap02yvJvXebHCT7FQIPdDHz8h": {
 			"height": 94,
 			"title": "store",
 			"width": 204,
-			"x": 398,
+			"x": 399,
 			"y": -165
 		},
-		"f3kjvARonnY73oTipKvXBy1aTcpg3Foz": {
-			"height": 132,
-			"title": "formation.moveCustomGroup",
-			"width": 427,
-			"x": 1117,
-			"y": 400
+		"kiQgmRArcgJQ7rDeKgViwecTOjLEhVDk": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 1179,
+			"y": -376
 		},
-		"fq08ZpECJHmBNjrGuEeCHhUDVpjzdGwE": {
-			"height": 60,
-			"title": "sequence_MaverickBranch",
-			"width": 253,
-			"x": 773,
-			"y": -214
+		"nenk4ewiE4iQTW9krmvLwib07zSpF5LW": {
+			"height": 92,
+			"title": "store",
+			"width": 179,
+			"x": 1112,
+			"y": 13
 		},
-		"pjT8lIvhyoS45fqhYDy8VEATNtejaeWa": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 209,
-			"y": 10
+		"tKhtp1kb3uyjCYw9AsCqMYyHGMT9Z1mr": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 334,
+			"x": 1149,
+			"y": -281
 		},
-		"rDZ4SunBLQSkIQHugFkW0mFg98T237M5": {
+		"uDdzlI9IqHoZX5mUumvH8vzB5sKDghKk": {
 			"height": 94,
 			"title": "store_Draw",
 			"width": 444,
-			"x": 1152,
-			"y": -566
-		},
-		"rMZN5c5SkndDnsRiDnjdku2YUWwKzN7o": {
-			"height": 70,
-			"title": "roleSplit",
-			"width": 202,
-			"x": 397,
-			"y": 73
-		},
-		"sfAZnCyA6O4Xfsqx90fMVgjnUAUQUNjE": {
-			"height": 94,
-			"title": "store",
-			"width": 293,
-			"x": 1173,
-			"y": -462
-		},
-		"vvJKWffiVuDPahzhFEzIDi183AhKgyFq": {
-			"height": 94,
-			"title": "store",
-			"width": 293,
-			"x": 1165,
-			"y": -184
+			"x": 1177,
+			"y": -473
 		}
 	},
 	"roles": [ {
@@ -147,7 +111,7 @@
 	"root": {
 		"children": [ {
 			"children": [],
-			"id": "VGpyu2KPr7V6Pqbd3ChFtotCK1FIjDF0",
+			"id": "gJzcvHwap02yvJvXebHCT7FQIPdDHz8h",
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "var",
@@ -164,7 +128,7 @@
 			"children": [ {
 				"children": [ {
 					"children": [],
-					"id": "rDZ4SunBLQSkIQHugFkW0mFg98T237M5",
+					"id": "uDdzlI9IqHoZX5mUumvH8vzB5sKDghKk",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
@@ -179,22 +143,7 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "sfAZnCyA6O4Xfsqx90fMVgjnUAUQUNjE",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "M_pos_last"
-					}, {
-						"name": "value",
-						"value": "{Spring.GetUnitPosition(units[1])}"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
-				}, {
-					"children": [],
-					"id": "LreOrwB35Ugpz1cN1ChxZOsrym1FK0uC",
+					"id": "kiQgmRArcgJQ7rDeKgViwecTOjLEhVDk",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
@@ -209,7 +158,7 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "L8Ub7LAcP3awuumTUnKKMin3fMWo4Ohb",
+					"id": "tKhtp1kb3uyjCYw9AsCqMYyHGMT9Z1mr",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "dist",
@@ -222,29 +171,14 @@
 						"value": "Common.relativeMove"
 					} ],
 					"scriptName": "Common.relativeMove"
-				}, {
-					"children": [],
-					"id": "vvJKWffiVuDPahzhFEzIDi183AhKgyFq",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "M_pos"
-					}, {
-						"name": "value",
-						"value": "{Spring.GetUnitPosition(units[1])}"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
 				} ],
-				"id": "fq08ZpECJHmBNjrGuEeCHhUDVpjzdGwE",
+				"id": "3WcadhFCri80ZkCwZa1u0iESHan9lLnO",
 				"nodeType": "sequence",
 				"parameters": []
 			}, {
 				"children": [ {
 					"children": [],
-					"id": "Tj0VaOoSToQcEjmlxplJO09UpT83OjXv",
+					"id": "FIC8aXTUB8Coo1dYghlYKqTZPJOrPOTp",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
@@ -259,7 +193,7 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "LxGlP6rpwOoGaYAFSzcKi0CDbS46kKt0",
+					"id": "nenk4ewiE4iQTW9krmvLwib07zSpF5LW",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
@@ -274,7 +208,7 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "NGaMOFihNXmLlR8TkXufDK7V6mcb1Do0",
+					"id": "clUa3Ap3dPKQ9yy9l06jw2JsufG5Mygs",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
@@ -289,7 +223,7 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "5spdHl8MKZNfxqN49LkQKRcnQ9ETuK5h",
+					"id": "NyLHqmD51iFduIkUusy9U8Olyyc9teGD",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
@@ -304,7 +238,7 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "f3kjvARonnY73oTipKvXBy1aTcpg3Foz",
+					"id": "SfdGRk4ohb0GpESgPM6Yajulpr6k2XQj",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "groupDefintion",
@@ -324,18 +258,18 @@
 					} ],
 					"scriptName": "formation.moveCustomGroup"
 				} ],
-				"id": "FRnxGL88CKRIRXKv32ILLGMqEWrznRSp",
+				"id": "RoHNRTAcCffkWRji4W31ojASf1GgKphg",
 				"nodeType": "sequence",
 				"parameters": []
 			} ],
-			"id": "rMZN5c5SkndDnsRiDnjdku2YUWwKzN7o",
+			"id": "c6LYuRgaI0LVprinePLHcH6ZTbKTcXyT",
 			"nodeType": "roleSplit",
 			"parameters": [ {
 				"name": "mode",
 				"value": "all-success"
 			} ]
 		} ],
-		"id": "pjT8lIvhyoS45fqhYDy8VEATNtejaeWa",
+		"id": "JWokyrIU81ezgGuCQ3cGm2YshSzmUDvI",
 		"nodeType": "sequence",
 		"parameters": []
 	}
