@@ -21,112 +21,119 @@
 			"height": 60,
 			"title": "sequence_FollowBranch",
 			"width": 237,
-			"x": 739,
+			"x": 740,
 			"y": 31
 		},
 		"G7QnOj4iKFCj3Eh2mk6RvU8gu7beOe37": {
 			"height": 90,
 			"title": "luaCondition",
-			"width": 320,
-			"x": 1145,
+			"width": 331,
+			"x": 1143,
 			"y": -437
 		},
 		"L8Ub7LAcP3awuumTUnKKMin3fMWo4Ohb": {
 			"height": 90,
 			"title": "Common.relativeMove",
 			"width": 334,
-			"x": 1154,
+			"x": 1152,
 			"y": -281
 		},
 		"LxGlP6rpwOoGaYAFSzcKi0CDbS46kKt0": {
 			"height": 92,
 			"title": "store",
 			"width": 179,
-			"x": 1116,
+			"x": 1114,
 			"y": 13
 		},
 		"NGaMOFihNXmLlR8TkXufDK7V6mcb1Do0": {
 			"height": 94,
 			"title": "store",
 			"width": 520,
-			"x": 1104,
+			"x": 1103,
 			"y": 97
 		},
 		"O5LYUchWymh5O7r3fNj8A8ziwiWOk9Of": {
 			"height": 94,
 			"title": "store",
 			"width": 663,
-			"x": 1153,
+			"x": 1151,
 			"y": 218
 		},
 		"QfPfv1LAp2GpFyz20Oe6Mr5R8GEmFcpt": {
 			"height": 94,
 			"title": "store",
 			"width": 293,
-			"x": 1605,
+			"x": 1603,
 			"y": -412
 		},
 		"Tj0VaOoSToQcEjmlxplJO09UpT83OjXv": {
 			"height": 94,
 			"title": "store",
 			"width": 499,
-			"x": 1046,
+			"x": 1045,
 			"y": -82
 		},
 		"VGpyu2KPr7V6Pqbd3ChFtotCK1FIjDF0": {
 			"height": 94,
 			"title": "store",
 			"width": 204,
-			"x": 430,
-			"y": -134
+			"x": 424,
+			"y": -164
 		},
 		"YSmloNMnlmm7rp8EKCGAzUljbQXiR0PF": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1155,
+			"x": 1153,
 			"y": -350
 		},
 		"f3kjvARonnY73oTipKvXBy1aTcpg3Foz": {
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 269,
-			"x": 1097,
+			"x": 1096,
 			"y": 295
 		},
 		"fq08ZpECJHmBNjrGuEeCHhUDVpjzdGwE": {
 			"height": 60,
 			"title": "sequence_MaverickBranch",
 			"width": 253,
-			"x": 724,
+			"x": 725,
 			"y": -242
 		},
 		"pjT8lIvhyoS45fqhYDy8VEATNtejaeWa": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 244,
+			"x": 245,
 			"y": 12
+		},
+		"rDZ4SunBLQSkIQHugFkW0mFg98T237M5": {
+			"height": 94,
+			"title": "store_Draw",
+			"width": 444,
+			"x": 1155,
+			"y": -566
 		},
 		"rMZN5c5SkndDnsRiDnjdku2YUWwKzN7o": {
 			"height": 70,
 			"title": "roleSplit",
 			"width": 202,
-			"x": 418,
+			"x": 419,
 			"y": 73
 		},
 		"sfAZnCyA6O4Xfsqx90fMVgjnUAUQUNjE": {
 			"height": 94,
 			"title": "store",
 			"width": 293,
-			"x": 1561,
+			"x": 1559,
 			"y": -264
 		},
 		"vvJKWffiVuDPahzhFEzIDi183AhKgyFq": {
 			"height": 94,
 			"title": "store",
 			"width": 293,
-			"x": 1170,
+			"x": 1168,
 			"y": -184
 		}
 	},
@@ -156,6 +163,21 @@
 		}, {
 			"children": [ {
 				"children": [ {
+					"children": [],
+					"id": "rDZ4SunBLQSkIQHugFkW0mFg98T237M5",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "sVariable"
+					}, {
+						"name": "value",
+						"value": "nota_majda_turinska_sandsail2_du.DrawDirectionWind()"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
 					"children": [ {
 						"children": [],
 						"id": "QfPfv1LAp2GpFyz20Oe6Mr5R8GEmFcpt",
@@ -191,7 +213,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "M_pos == {Spring.GetUnitPosition(units[1])}"
+						"value": "(M_pos == {Spring.GetUnitPosition(units[1])})"
 					}, {
 						"name": "repeat",
 						"value": "false"
@@ -202,7 +224,7 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "dist",
-						"value": "{x = wind[1], z = wind[3]}"
+						"value": "{x = wind[1]*10, z = wind[3]*10}"
 					}, {
 						"name": "fight",
 						"value": "false"

@@ -1,6 +1,6 @@
 local sensorInfo = {
-	name = "ExampleDebug",
-	desc = "Sends data to example debug widget",
+	name = "DrawDirectionWind",
+	desc = "Sends wind data to drawing widget",
 	author = "PepeAmpere_+_MajdaT",
 	date = "2018-04-16",
 	license = "MIT",
