@@ -16,8 +16,8 @@
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 269,
-			"x": 1109,
-			"y": 124
+			"x": 1077,
+			"y": 77
 		},
 		"52rsayHra9XawIeZiJrzSTDSFpeUfqWJ": {
 			"height": 94,
@@ -49,11 +49,8 @@
 		}
 	},
 	"roles": [ {
-		"categories": [ "nota_majda_turinska_sandsail2_du.follow_role" ],
+		"categories": [ "nota_majda_turinska_sandsail2_du.Maverick_orig", "nota_majda_turinska_sandsail2_du.follow_role", "nota_majda_turinska_sandsail2_du.maverick_role", "Common.airUnits", "Common.bomberAirUnits", "Common.builders", "Common.buildings", "Common.fighterAirUnits", "Common.groundUnits", "Common.immobile", "Common.mobileBuilders", "Common.transports", "nota_raiders.bots", "nota_raiders.vehicles" ],
 		"name": "Follow_role"
-	}, {
-		"categories": [ "nota_majda_turinska_sandsail2_du.maverick_role" ],
-		"name": "Maverick"
 	} ],
 	"root": {
 		"children": [ {
